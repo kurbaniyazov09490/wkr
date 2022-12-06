@@ -1,0 +1,128 @@
+body{
+  background-color: #DCDDE7FF;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.main{
+  background-color: #F4F5F8FF;
+}
+.navigation{
+  background-color: #0A4ECBFF;
+  left: 20px;
+}
+.navbar-brand{
+  color: aliceblue;
+}
+.navbar-toggler{
+  border: 1px solid whitesmoke;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+}
+.navbar-toggler>p{
+  position: absolute;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 14px;
+  top: 10px;
+
+}
+.nav-item{
+  display: block;
+  background-color: rgb(46, 153, 254);
+  margin: 3px;
+  margin-top: 7px;
+  border-radius: 7px;
+  color: aliceblue;
+  font-style: normal;
+}
+.nav-link{
+  color: aliceblue;
+}
+.row{
+  height: 100%;
+}
+.enter{
+  height: 50px;
+  width: 100px;
+  background-color: #4CAF50;
+  color: azure;
+  border-radius: 7px;
+  border-style: solid;
+  border: 0.5px;
+}
+.card-footer{
+  text-align: center;
+  color: azure;
+  border-radius: 3px;
+  height: 200px;
+  background-color: #1D1E22FF;
+}
+.navbar navbar-expand-sm bg-dark navbar-dark{
+  margin-top: 0px;
+}
+.fakeimg {
+  height: 300px;
+  background: #aaa;
+}
+.fakeimg>img{
+  height: 100%;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+  }
+}
